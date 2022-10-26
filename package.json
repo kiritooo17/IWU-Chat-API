@@ -1,19 +1,22 @@
 {
-  "name": "express-chat-app-api",
+  "name": "iwu-chat",
   "version": "1.0.0",
-  "description": "Web Chat Nibiru",
-  "main": "server.js",
+  "description": "I With U-Chat",
+  "main": "index.js",
+  "engine": {
+    "node": "16.x"
+  },
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "ExpressJS",
     "WebSocket",
     "PostgreSQL"
   ],
-  "author": "Abdus Salim",
-  "license": "MIT",
+  "author": "triansyah17",
+  "license": "",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
